@@ -1,5 +1,5 @@
 /* Reset some default styles for consistency across browsers */
-:root {   
+:root {
 	--primary-color: #1B2838;
 	--secondary-color: #00ffff;
 	--thirdy-color: #fff;
@@ -43,18 +43,57 @@ body {
 	padding: 20px;
 }
 
-.lRoboto{
+.lRoboto {
 	font-family: 'Roboto';
 }
 
-.lFBBold{
+.lFBBold {
 	font-family: 'Agency FB Bold';
 }
 
-.title{
+.title {
 	text-transform: uppercase;
 }
 
-#about{
+/* Basic heading styles */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: var(--font-family-secondary);
+	margin: var(--margin) 0;
+	line-height: 1.2;
+}
+
+/* Basic paragraph styles */
+p {
+	margin: var(--margin) 0;
+	padding: var(--padding) 0;
+}
+
+/* Basic list styles */
+ul,
+ol {
+	margin: var(--margin) 0;
+	padding-left: 2rem;
+}
+
+li {
+	margin-bottom: var(--margin);
+}
+
+/* Hyperlink styles */
+a {
+	color: var(--primary-color);
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#about {
 	color: var(--thirdy-color);
 }
