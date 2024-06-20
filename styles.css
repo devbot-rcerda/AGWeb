@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-	width: 80%;
+	width: 80%; 
 	max-width: 1200px;
 	margin: auto;
 	padding: 20px;
@@ -86,6 +86,14 @@ a:hover {
 /* #region About Section */
 #about {
 	color: var(--thirdy-color);
+}
+
+#landingImage{
+	width: 100%;	
+}
+
+#landingImage img{
+	width: auto;
 }
 
 #about .title {
