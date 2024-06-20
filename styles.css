@@ -4,7 +4,8 @@
 	--secondary-color: #00ffff;
 	--thirdy-color: #fff;
 	--background-color: #1B2838;
-	--font-family: 'Arial, sans-serif';
+	--font-family: 'Roboto';
+	--font-family-secondary: 'Agency FB Bold';
 	--font-size: 16px;
 	--padding: 10px;
 	--margin: 10px;
@@ -40,4 +41,12 @@ body {
 	max-width: 1200px;
 	margin: auto;
 	padding: 20px;
+}
+
+.lRoboto{
+	font-family: 'Roboto';
+}
+
+.lFBBold{
+	font-family: 'Agency FB Bold';
 }
