@@ -1,6 +1,31 @@
-.pdfview {
-	/*margin: auto;*/
-	display: block;
-	width: 1920px;
-	height: 920vh;
+/* Reset some default styles for consistency across browsers */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Set a basic style for the html and body elements */
+html,
+body {
+	height: 100%;
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f9;
+	line-height: 1.6;
+}
+
+/* Ensure the body takes up the full viewport height */
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Basic container styling */
+.container {
+	width: 80%;
+	max-width: 1200px;
+	margin: auto;
+	padding: 20px;
 }
