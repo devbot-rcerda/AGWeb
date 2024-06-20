@@ -1,4 +1,4 @@
-/* Reset some default styles for consistency across browsers */
+/* #region General Styles */
 :root {
 	--primary-color: #1B2838;
 	--secondary-color: #00ffff;
@@ -12,13 +12,13 @@
 	--border-radius: 5px;
 }
 
+/* Reset some default styles for consistency across browsers */
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-/* Set a basic style for the html and body elements */
 html,
 body {
 	height: 100%;
@@ -31,11 +31,10 @@ body {
 body {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	/* justify-content: center; */
 	align-items: center;
 }
 
-/* Basic container styling */
 .container {
 	width: 80%;
 	max-width: 1200px;
@@ -43,19 +42,6 @@ body {
 	padding: 20px;
 }
 
-.lRoboto {
-	font-family: 'Roboto';
-}
-
-.lFBBold {
-	font-family: 'Agency FB Bold';
-}
-
-.title {
-	text-transform: uppercase;
-}
-
-/* Basic heading styles */
 h1,
 h2,
 h3,
@@ -67,24 +53,26 @@ h6 {
 	line-height: 1.2;
 }
 
-/* Basic paragraph styles */
 p {
 	margin: var(--margin) 0;
 	padding: var(--padding) 0;
 }
 
-/* Basic list styles */
 ul,
 ol {
 	margin: var(--margin) 0;
 	padding-left: 2rem;
 }
 
-li {
-	margin-bottom: var(--margin);
+ul {
+	list-style: none;
 }
 
-/* Hyperlink styles */
+ul li::before {
+	content: "- ";
+	margin-right: 8px;
+}
+
 a {
 	color: var(--primary-color);
 	text-decoration: none;
@@ -93,7 +81,14 @@ a {
 a:hover {
 	text-decoration: underline;
 }
+/* #endregion */
 
+/* #region About Section */
 #about {
 	color: var(--thirdy-color);
+}
+
+#about .title {
+	text-transform: uppercase;
+	font-size: 90pt;
 }
