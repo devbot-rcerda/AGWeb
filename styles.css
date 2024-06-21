@@ -35,6 +35,8 @@
 	--breakpoint-lg: 992px;
 	/* Extra large devices (large desktops, 1200px and up) */
 	--breakpoint-xl: 1200px;
+	/* 2K monitors (2048px and up) */
+	--breakpoint-2k: 2048px;
 	/* 4K monitors (2560px and up) */
 	--breakpoint-4k: 2560px;
 }
@@ -185,50 +187,45 @@ img {
 	margin-right: auto;
 }
 
-.toUpperCase{
+.toUpperCase {
 	text-transform: uppercase;
 }
 
 /* #endregion */
 
-/* Styles for mobile screens (up to 375px) */
-@media screen and (max-width: var(--breakpoint-sm)) {
-
-	body {
-		background-color: aqua !important;
-	}
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	
 }
 
-/* Styles for tablet screens (375px to 768px) */
-@media screen and (min-width: var(--breakpoint-sm)) {
-
-	body {
-		background-color: aqua !important;
-	}
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	
 }
 
-/* Styles for desktop screens (768px to 1024px) */
-@media screen and (min-width: var(--breakpoint-md)) {
-
-	body {
-		background-color: aqua !important;
-	}
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	
 }
 
-/* Styles for large desktop screens (1024px to 1440px) */
-@media screen and (min-width: var(--breakpoint-lg)) {
-
-	body {
-		background-color: aqua !important;
-	}
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	
 }
 
-/* Styles for 4k monitors (greater than or equal to 2560px) */
-@media screen and (min-width: var(--breakpoint-4k)) {
+/* XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
 
-	body {
-		background-color: aqua !important;
-	}
+/* 2K devices (larger desktops, 1400px and up)*/
+@media (min-width: 2048px) {
+	
+}
+
+/* 4K devices (larger desktops, 1400px and up)*/
+@media (min-width: 2560px) {
+	
 }
 
 /* #region Landing Section */
@@ -264,14 +261,14 @@ img {
 
 /* #region Info AG */
 
-#secondaryHeader{
+#secondaryHeader {
 	font-size: 1.2vw;
-	color:#fff;
+	color: #fff;
 }
 
 #secondaryHeader {
 	font-size: 1.2vw;
-	color:#fff;
+	color: #fff;
 }
 
 .imgSecondaryHeader {
@@ -279,8 +276,8 @@ img {
 	height: auto;
 }
 
-div .infoAg{
-	width: 100%; 
+div .infoAg {
+	width: 100%;
 	padding: 1.8vw 0;
 }
 
