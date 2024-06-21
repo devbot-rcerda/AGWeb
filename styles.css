@@ -286,7 +286,8 @@ img {
 /* #region Info AG */
 
 #secondaryHeader {
-	color: #fff;
+	color: var(--thirdy-color);
+	margin-bottom: 5px;
 }
 
 .imgSecondaryHeader {
@@ -364,11 +365,12 @@ div .infoAg .divInfo {
 /* X-Large devices (large desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
 	.imgSecondaryHeader {
-		width: 100%;
+		width: 45%;
 		height: auto;
 	}
 	.infoDiv{
 		padding: 40px 80px 40px 80px;
+		align-content: center;
 	}
 }
 
