@@ -238,7 +238,7 @@ img {
 /* #region Grid Section */
 #grid {
 	background-color: var(--thirdy-color);
-	padding: var(--padding-x);
+	padding: 2em var(--padding-x) 5em var(--padding-x);
 }
 
 #grid .grid-container {
