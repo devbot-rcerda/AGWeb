@@ -266,15 +266,6 @@ img {
 	width: 100%;
 }
 
-#agProfileImg {
-	width: 100%;
-	height: auto;
-}
-
-#agProfileImg picture img {
-	max-width: 2560px;
-	width: 100%;
-}
 
 /* #endregion */
 
@@ -410,6 +401,20 @@ div .infoAg .divInfo {
 	/* Defines 3 columns with equal width */
 	grid-gap: 10px;
 	/* Sets the gap between grid items */
+}
+
+/* #endregion */
+
+/* #region Guardian on shoulder*/
+
+#agProfileImg {
+	width: 100%;
+	height: auto;
+}
+
+#agProfileImg picture img {
+	max-width: 2560px;
+	width: 100%;
 }
 
 /* #endregion */
