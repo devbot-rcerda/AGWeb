@@ -138,13 +138,17 @@ img {
 /* #endregion */
 
 /* #region Landing Section */
-
-#landingImage {
-	width: 100%;
+#landingHeader{
+	width: 100%;	
 }
 
-#landingImage img {
-	width: auto;
+#landingHeader img{
+	width: 100%;
+	height: 100%;
+}
+
+#secondaryHeader img{
+	width: 45%;
 }
 
 /* #endregion */
