@@ -18,15 +18,21 @@
 	--background-color: #1B2838;
 	--font-family: 'Roboto';
 	--font-family-secondary: 'AgencyFB';
-	--font-size: 0.9vw;
-	--font-size-title: 3.8vw;
 	--padding: 8px;
 	--padding-x: 30px;
 	--margin: 10px;
 	--border-radius: 5px;
+	
+	/* Font sizes */
+	--font-size: 0.9vw;
+	--font-size-2k: 0.7vw;
+	--font-size-4k: 0.6vw;
+
+	/* Font sizes for titles */
+	--font-size-title: 3.8vw;
+	--font-size-title-4k: 2.8vw;
 
 	/* Breakpoints */
-
 	/* Small devices (landscape phones, 576px and up) */
 	--breakpoint-sm: 576px;
 	/* Medium devices (tablets, 768px and up) */
@@ -71,10 +77,8 @@ body {
 }
 
 .container {
-	width: 80%;
 	max-width: var(--breakpoint-4k);
 	margin: auto;
-	padding: 0 20px;
 }
 
 h1,
@@ -191,6 +195,10 @@ img {
 	text-transform: uppercase;
 }
 
+.title {
+	font-size: var(--font-size-title);
+}
+
 /* #endregion */
 
 /* Small devices (landscape phones, 576px and up)*/
@@ -220,12 +228,20 @@ img {
 
 /* 2K devices (larger desktops, 1400px and up)*/
 @media (min-width: 2048px) {
-	
+	body {
+		font-size: var(--font-size-2k);
+	}
 }
 
 /* 4K devices (larger desktops, 1400px and up)*/
 @media (min-width: 2560px) {
-	
+	body {
+		font-size: var(--font-size-4k);
+	}
+
+	.title {
+		font-size: var(--font-size-title-4k);
+	}
 }
 
 /* #region Landing Section */
@@ -248,12 +264,6 @@ img {
 /* #region Info AG */
 
 #secondaryHeader {
-	font-size: 1.2vw;
-	color: #fff;
-}
-
-#secondaryHeader {
-	font-size: 1.2vw;
 	color: #fff;
 }
 
@@ -297,7 +307,6 @@ div .infoAg .divInfo {
 	text-transform: uppercase;
 	width: 100%;
 	text-align: center;
-	font-size: var(--font-size-title);
 	margin: 1.5em 0 0.8em 0;
 }
 
@@ -307,7 +316,6 @@ div .infoAg .divInfo {
 
 #about .flex>div:nth-child(2) {
 	padding: 0 var(--padding-x);
-	font-size: 0.9vw;
 }
 
 #about .flex>div:nth-child(2) #ask-picture img {
@@ -341,10 +349,6 @@ div .infoAg .divInfo {
 #system-requirements .flex>div:nth-child(2) {
 	padding: 0 var(--padding-x);
 	color: var(--thirdy-color);
-}
-
-#system-requirements .flex>div:nth-child(2) .title {
-	font-size: var(--font-size-title);
 }
 
 #system-requirements .flex>div:nth-child(2) h3 {
