@@ -128,6 +128,13 @@ a:hover {
 	flex-wrap: wrap;
 }
 
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
 /* #endregion */
 
 /* #region Landing Section */
@@ -144,12 +151,19 @@ a:hover {
 
 /* #region About Section */
 #about {
-	color: var(--thirdy-color);
+	color: var(--primary-color);
+	background-color: var(--thirdy-color);
+	overflow: hidden;
 }
 
 #about .title {
 	text-transform: uppercase;
 	font-size: 90pt;
+}
+
+
+#about #kita-picture {
+	max-width: 150px;
 }
 
 
