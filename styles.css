@@ -134,11 +134,16 @@ img {
 	max-width: 100%;
 	height: auto;
 	display: block;
-	-webkit-user-select: none; /* Safari */
-	-khtml-user-select: none; /* Chrome/KHTML */
-	-moz-user-select: none; /* Firefox */
-	-ms-user-select: none; /* IE/Edge */
-	user-select: none; /* Standard syntax */
+	-webkit-user-select: none;
+	/* Safari */
+	-khtml-user-select: none;
+	/* Chrome/KHTML */
+	-moz-user-select: none;
+	/* Firefox */
+	-ms-user-select: none;
+	/* IE/Edge */
+	user-select: none;
+	/* Standard syntax */
 	pointer-events: none;
 }
 
@@ -200,7 +205,10 @@ img {
 
 #grid .grid-container {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr); /* Defines 3 columns with equal width */
-	grid-gap: 10px; /* Sets the gap between grid items */
-  }
+	grid-template-columns: repeat(3, 1fr);
+	/* Defines 3 columns with equal width */
+	grid-gap: 10px;
+	/* Sets the gap between grid items */
+}
+
 /* #endregion */
