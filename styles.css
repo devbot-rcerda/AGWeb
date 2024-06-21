@@ -179,7 +179,7 @@ img {
 	width: 100%;
 }
 
-#landingHeader img {
+#landingHeader picture .imgHeader {
 	width: 100%;
 	height: 100%;
 }
