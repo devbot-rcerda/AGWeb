@@ -165,8 +165,17 @@ img {
 	height: 100%;
 }
 
-#secondaryHeader img {
+.imgSecondaryHeader{
 	width: 45%;
+	height: auto;
+}
+
+.text-color-third{
+	color: var(--secondary-color);
+}
+
+.border-color-third{
+	border-bottom: 1px solid var(--secondary-color);
 }
 
 /* #endregion */
