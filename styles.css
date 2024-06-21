@@ -271,10 +271,6 @@ img {
 	width: 100%;
 }
 
-#agprofileimg {
-	width: 100%;
-	height: auto;
-}
 
 /* #endregion */
 
@@ -285,12 +281,12 @@ img {
 }
 
 .imgSecondaryHeader {
-	width: 55%;
+	width: 60%;
 	height: auto;
 }
 
 .infoDiv{
-	padding: 40px 60px 40px 60px;
+	padding: 10px 10px;
 }
 
 div .infoAg {
@@ -313,6 +309,58 @@ div .infoAg .divInfo {
 #agprofileimg {
 	width: 100%;
 	height: auto;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
+@media (min-width: 370px) {
+	.imgSecondaryHeader {
+		width: 50%;
+		height: auto;
+	}
+	.infoDiv{
+		padding: 20px 25px;
+	}
+}
+
+@media (min-width: 576px) {
+	.imgSecondaryHeader {
+		width: 50%;
+		height: auto;
+	}
+
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.imgSecondaryHeader {
+		width: 50%;
+		height: auto;
+	}
+	.infoDiv{
+		padding: 40px 60px 40px 60px;
+	}
+}
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.imgSecondaryHeader {
+		width: 55%;
+		height: auto;
+	}
+	.infoDiv{
+		padding: 40px 70px 40px 70px;
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	.imgSecondaryHeader {
+		width: 100%;
+		height: auto;
+	}
+	.infoDiv{
+		padding: 40px 80px 40px 80px;
+	}
 }
 
 /* #endregion */
@@ -358,6 +406,20 @@ div .infoAg .divInfo {
 	/* Defines 3 columns with equal width */
 	grid-gap: 10px;
 	/* Sets the gap between grid items */
+}
+
+/* #endregion */
+
+/* #region Guardian on shoulder*/
+
+#agProfileImg {
+	width: 100%;
+	height: auto;
+}
+
+#agProfileImg picture img {
+	max-width: 2560px;
+	width: 100%;
 }
 
 /* #endregion */
