@@ -24,10 +24,9 @@
 	--padding-x: 30px;
 	--margin: 10px;
 	--border-radius: 5px;
-}
 
-/* Breakpoints */
-:root {
+	/* Breakpoints */
+
 	/* Small devices (landscape phones, 576px and up) */
 	--breakpoint-sm: 576px;
 	/* Medium devices (tablets, 768px and up) */
@@ -188,20 +187,45 @@ img {
 
 /* #endregion */
 
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: var(--breakpoint-sm)) {}
+/* Styles for mobile screens (up to 375px) */
+@media screen and (max-width: var(--breakpoint-sm)) {
 
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: var(--breakpoint-md)) {}
+	body {
+		background-color: aqua !important;
+	}
+}
 
-/* Large devices (desktops, 992px and up) */
-@media (min-width: var(--breakpoint-lg)) {}
+/* Styles for tablet screens (375px to 768px) */
+@media screen and (min-width: var(--breakpoint-sm)) {
 
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: var(--breakpoint-xl)) {}
+	body {
+		background-color: aqua !important;
+	}
+}
 
-/* 4K monitors (2560px and up) */
-@media (min-width: var(--breakpoint-4k)) {}
+/* Styles for desktop screens (768px to 1024px) */
+@media screen and (min-width: var(--breakpoint-md)) {
+
+	body {
+		background-color: aqua !important;
+	}
+}
+
+/* Styles for large desktop screens (1024px to 1440px) */
+@media screen and (min-width: var(--breakpoint-lg)) {
+
+	body {
+		background-color: aqua !important;
+	}
+}
+
+/* Styles for 4k monitors (greater than or equal to 2560px) */
+@media screen and (min-width: var(--breakpoint-4k)) {
+
+	body {
+		background-color: aqua !important;
+	}
+}
 
 /* #region Landing Section */
 #landingHeader {
