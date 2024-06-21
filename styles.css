@@ -181,7 +181,6 @@ img {
 
 #about .title {
 	text-transform: uppercase;
-	font-size: 30pt;
 	width: 100%;
 	text-align: center;
 	margin: 1.5em 0 1em 0;
@@ -209,6 +208,26 @@ img {
 	/* Defines 3 columns with equal width */
 	grid-gap: 10px;
 	/* Sets the gap between grid items */
+}
+
+/* #endregion */
+
+/* #region System Requirements */
+#system-requirements .flex>div {
+	width: 50%;
+}
+
+#system-requirements .flex>div:nth-child(2) {
+	padding: 0 var(--padding-x);
+	color: var(--thirdy-color);
+}
+
+#system-requirements .flex>div:nth-child(2) h3 {
+	color: var(--secondary-color);
+}
+
+#system-requirements .flex>div:nth-child(2) hr {
+	border-color: var(--secondary-color);
 }
 
 /* #endregion */
