@@ -26,6 +26,8 @@
 	--padding-x-md: 20px;
 	
 	/* Font sizes */
+	--font-size-sm: 0.8vw;
+	--font-size-md: 1.2vw;
 	--font-size: 2.5vw;
 	--font-size-lg: 0.9vw;
 	--font-size-2k: 0.7vw;
@@ -206,23 +208,30 @@ img {
 
 /* Small devices (landscape phones, 576px and up)*/
 @media screen and (min-width: 576px) {
-	
+	html,
+	body {
+		font-size: var(--font-size-sm);
+	}
 }
 
 /* Medium devices (tablets, 768px and up)*/
 @media screen and (min-width: 768px) {
-	
+	html,body {
+		font-size: var(--font-size-md);
+	}
 }
 
 /* Large devices (desktops, 992px and up)*/
 @media screen and (min-width: 992px) {
-	
+	html,body {
+		font-size: var(--font-size-md);
+	}
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
 @media screen and (min-width: 1200px) {
-	body {
-		font-size: var(--font-size-lg);
+	html,body {
+		font-size: var(--font-size-md);
 	}
 }
 
