@@ -18,7 +18,8 @@
 	--background-color: #1B2838;
 	--font-family: 'Roboto';
 	--font-family-secondary: 'AgencyFB';
-	--font-size: 16px;
+	--font-size: 0.9vw;
+	--font-size-title: 3.8vw;
 	--padding: 8px;
 	--padding-x: 30px;
 	--margin: 10px;
@@ -38,6 +39,7 @@ body {
 	font-family: Roboto;
 	background-color: var(--background-color);
 	line-height: 1.6;
+	font-size: var(--font-size);
 }
 
 /* Ensure the body takes up the full viewport height */
@@ -213,7 +215,7 @@ img {
 	text-transform: uppercase;
 	width: 100%;
 	text-align: center;
-	font-size: 4vw;
+	font-size: var(--font-size-title);
 	margin: 1.5em 0 0.8em 0;
 }
 
@@ -223,6 +225,7 @@ img {
 
 #about .flex>div:nth-child(2) {
 	padding: 0 var(--padding-x);
+	font-size: 0.9vw;
 }
 
 #about .flex>div:nth-child(2) #ask-picture img {
@@ -258,6 +261,10 @@ img {
 	color: var(--thirdy-color);
 }
 
+#system-requirements .flex>div:nth-child(2) .title {
+	font-size: var(--font-size-title);
+}
+
 #system-requirements .flex>div:nth-child(2) h3 {
 	color: var(--secondary-color);
 	margin-bottom: 0.1em;
@@ -270,7 +277,7 @@ img {
 
 #system-requirements .flex>div:nth-child(2) hr {
 	border-color: var(--secondary-color);
-	margin: 3.5em 0;
+	margin: 2.5em 0 1.5em 0;
 }
 
 #system-requirements .flex>div:nth-child(2) p {
