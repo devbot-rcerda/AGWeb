@@ -205,41 +205,41 @@ img {
 /* #endregion */
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
 	
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	body {
 		font-size: var(--font-size-lg);
 	}
 }
 
 /* XX-Large devices (larger desktops, 1400px and up)*/
-@media (min-width: 1400px) {
+@media screen and (min-width: 1400px) {
 	
 }
 
 /* 2K devices (larger desktops, 1400px and up)*/
-@media (min-width: 2048px) {
+@media screen and (min-width: 2048px) {
 	body {
 		font-size: var(--font-size-2k);
 	}
 }
 
 /* 4K devices (larger desktops, 1400px and up)*/
-@media (min-width: 2560px) {
+@media screen and (min-width: 2560px) {
 	body {
 		font-size: var(--font-size-4k);
 	}
@@ -312,7 +312,7 @@ div .infoAg .divInfo {
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 370px) {
+@media screen and (min-width: 370px) {
 	.imgSecondaryHeader {
 		width: 50%;
 		height: auto;
@@ -322,7 +322,7 @@ div .infoAg .divInfo {
 	}
 }
 
-@media (min-width: 576px) {
+@media screen and (min-width: 576px) {
 	.imgSecondaryHeader {
 		width: 50%;
 		height: auto;
@@ -331,7 +331,7 @@ div .infoAg .divInfo {
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	.imgSecondaryHeader {
 		width: 50%;
 		height: auto;
@@ -342,7 +342,7 @@ div .infoAg .divInfo {
 }
 
 /* Large devices (desktops, 992px and up)*/
-@media (min-width: 992px) {
+@media screen and (min-width: 992px) {
 	.imgSecondaryHeader {
 		width: 55%;
 		height: auto;
@@ -353,7 +353,7 @@ div .infoAg .divInfo {
 }
 
 /* X-Large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) {
+@media screen and (min-width: 1200px) {
 	.imgSecondaryHeader {
 		width: 100%;
 		height: auto;
@@ -459,14 +459,14 @@ div .infoAg .divInfo {
 }
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 0px) {
+@media screen and (min-width: 0px) {
 	#system-requirements .flex>div:nth-child(2) {
 		padding: 0 var(--padding-x-sm);
 	}	
 }
 
 /* Medium devices (tablets, 768px and up)*/
-@media (min-width: 768px) {
+@media screen and (min-width: 768px) {
 	#system-requirements .flex>div:nth-child(2) {
 		padding: 0 var(--padding-x-md);
 	}	
