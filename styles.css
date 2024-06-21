@@ -7,7 +7,8 @@
 	--font-family: 'Roboto';
 	--font-family-secondary: 'Agency FB Bold';
 	--font-size: 16px;
-	--padding: 10px;
+	--padding: 8px;
+	--padding-x: 30px;
 	--margin: 10px;
 	--border-radius: 5px;
 }
@@ -170,6 +171,7 @@ img {
 	color: var(--primary-color);
 	background-color: var(--thirdy-color);
 	overflow: hidden;
+	padding-right: var(--padding);
 }
 
 #about .title {
@@ -188,4 +190,17 @@ img {
 	max-width: 300px;
 }
 
+/* #endregion */
+
+/* #region Grid Section */
+#grid {
+	background-color: var(--thirdy-color);
+	padding: var(--padding-x);
+}
+
+#grid .grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr); /* Defines 3 columns with equal width */
+	grid-gap: 10px; /* Sets the gap between grid items */
+  }
 /* #endregion */
