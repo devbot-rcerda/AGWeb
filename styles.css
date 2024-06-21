@@ -64,7 +64,7 @@ body {
 	height: 100%;
 	font-family: Roboto;
 	background-color: var(--background-color);
-	line-height: 1.6;
+	line-height: 1.5;
 	font-size: var(--font-size);
 }
 
@@ -271,10 +271,10 @@ img {
 }
 
 .imgHeaderButton{
-	width: 20%;
+	width: 15%;
 	position: absolute;
-	left: 8vw;
-	bottom: 5vw;
+	left: 4vw;
+	bottom: 1vw;
 }
 .imgHeaderButton img{
 	width: 100%;
@@ -478,7 +478,6 @@ div .infoAg .divInfo {
 #system-requirements .flex>div:nth-child(2) p {
 	margin: 0;
 	padding: 0;
-	line-height: 1.5;
 }
 
 /* Small devices (landscape phones, 576px and up)*/
