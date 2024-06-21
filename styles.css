@@ -213,9 +213,23 @@ img {
 	height: 100%;
 }
 
+#agprofileimg {
+	width: 100%;
+	height: auto;
+}
+
+/* #endregion */
+
+/* #region Info AG */
+
 .imgSecondaryHeader {
 	width: 45%;
 	height: auto;
+}
+
+#secondaryHeader {
+	font-size: 1.2vw;
+	color: #fff;
 }
 
 .text-color-third {
