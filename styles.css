@@ -411,10 +411,23 @@ div .infoAg .divInfo {
 
 #grid .grid-container {
 	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	/* Defines 3 columns with equal width */
-	grid-gap: 10px;
-	/* Sets the gap between grid items */
+	grid-template-columns: repeat(1, 1fr);
+	grid-gap: 20px;
+}
+
+/* Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	#grid .grid-container {
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+	#grid .grid-container {
+		grid-template-columns: repeat(3, 1fr);
+		grid-gap: 10px;
+	}
 }
 
 /* #endregion */
