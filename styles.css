@@ -185,6 +185,10 @@ img {
 	margin-right: auto;
 }
 
+.toUpperCase{
+	text-transform: uppercase;
+}
+
 /* #endregion */
 
 /* Styles for mobile screens (up to 375px) */
@@ -246,14 +250,28 @@ img {
 
 /* #region Info AG */
 
+#secondaryHeader{
+	font-size: 1.2vw;
+	color:#fff;
+}
+
+#secondaryHeader {
+	font-size: 1.2vw;
+	color:#fff;
+}
+
 .imgSecondaryHeader {
 	width: 45%;
 	height: auto;
 }
 
-#secondaryHeader {
-	font-size: 1.2vw;
-	color: #fff;
+div .infoAg{
+	width: 100%; 
+	padding: 1.8vw 0;
+}
+
+div .infoAg .divInfo {
+	width: 33%;
 }
 
 .text-color-third {
