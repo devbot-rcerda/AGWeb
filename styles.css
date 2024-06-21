@@ -266,9 +266,14 @@ img {
 	width: 100%;
 }
 
-#agprofileimg {
+#agProfileImg {
 	width: 100%;
 	height: auto;
+}
+
+#agProfileImg picture img {
+	max-width: 2560px;
+	width: 100%;
 }
 
 /* #endregion */
@@ -280,12 +285,12 @@ img {
 }
 
 .imgSecondaryHeader {
-	width: 100%;
+	width: 60%;
 	height: auto;
 }
 
 .infoDiv{
-	padding: 40px 60px 40px 60px;
+	padding: 10px 10px;
 }
 
 div .infoAg {
