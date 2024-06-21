@@ -73,7 +73,7 @@ body {
 	width: 80%;
 	max-width: var(--breakpoint-4k);
 	margin: auto;
-	padding: 20px;
+	padding: 0 20px;
 }
 
 h1,
