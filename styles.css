@@ -1,3 +1,15 @@
+/*font families*/
+@font-face {
+	font-family: Roboto;
+	src: url(/fonts/Roboto/Roboto-Medium.ttf);
+	font-weight: bold;
+}
+
+@font-face {
+	font-family: AgencyFB;
+	src: url(/fonts/AgencyFB-Bold/AgencyFB-Bold.ttf);
+}
+
 /* #region General Styles */
 :root {
 	--primary-color: #1B2838;
@@ -23,7 +35,7 @@
 html,
 body {
 	height: 100%;
-	font-family: Arial, sans-serif;
+	font-family: Roboto;
 	background-color: var(--background-color);
 	line-height: 1.6;
 }
@@ -34,6 +46,11 @@ body {
 	flex-direction: column;
 	/* justify-content: center; */
 	align-items: center;
+}
+
+.agencyFont{
+	font-family: AgencyFB;
+	letter-spacing: 3px;
 }
 
 .container {
@@ -176,6 +193,11 @@ img {
 
 .border-color-third{
 	border-bottom: 1px solid var(--secondary-color);
+}
+
+#agprofileimg{
+	width: 100%;
+	height: auto;
 }
 
 /* #endregion */
