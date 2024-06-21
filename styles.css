@@ -26,6 +26,20 @@
 	--border-radius: 5px;
 }
 
+/* Breakpoints */
+:root {
+	/* Small devices (landscape phones, 576px and up) */
+	--breakpoint-sm: 576px;
+	/* Medium devices (tablets, 768px and up) */
+	--breakpoint-md: 768px;
+	/* Large devices (desktops, 992px and up) */
+	--breakpoint-lg: 992px;
+	/* Extra large devices (large desktops, 1200px and up) */
+	--breakpoint-xl: 1200px;
+	/* 4K monitors (2560px and up) */
+	--breakpoint-4k: 2560px;
+}
+
 /* Reset some default styles for consistency across browsers */
 * {
 	margin: 0;
@@ -50,14 +64,14 @@ body {
 	align-items: center;
 }
 
-.agencyFont{
+.agencyFont {
 	font-family: AgencyFB;
 	letter-spacing: 3px;
 }
 
 .container {
 	width: 80%;
-	max-width: 2560px;
+	max-width: var(--breakpoint-4k);
 	margin: auto;
 	padding: 20px;
 }
@@ -174,6 +188,21 @@ img {
 
 /* #endregion */
 
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: var(--breakpoint-sm)) {}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: var(--breakpoint-md)) {}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: var(--breakpoint-lg)) {}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: var(--breakpoint-xl)) {}
+
+/* 4K monitors (2560px and up) */
+@media (min-width: var(--breakpoint-4k)) {}
+
 /* #region Landing Section */
 #landingHeader {
 	width: 100%;
@@ -184,20 +213,20 @@ img {
 	height: 100%;
 }
 
-.imgSecondaryHeader{
+.imgSecondaryHeader {
 	width: 45%;
 	height: auto;
 }
 
-.text-color-third{
+.text-color-third {
 	color: var(--secondary-color);
 }
 
-.border-color-third{
+.border-color-third {
 	border-bottom: 1px solid var(--secondary-color);
 }
 
-#agprofileimg{
+#agprofileimg {
 	width: 100%;
 	height: auto;
 }
