@@ -254,7 +254,7 @@ img {
 }
 
 #system-requirements .flex>div:nth-child(2) {
-	padding: 2em var(--padding-x);
+	padding: 0 var(--padding-x);
 	color: var(--thirdy-color);
 }
 
