@@ -247,22 +247,20 @@ img {
 /* #region Landing Section */
 #landingHeader {
 	width: 100%;
+	position: relative;
 }
 
-#landingHeader picture .imgHeader {
+#landingHeader .imgHeader {
 	width: 100%;
 	height: 100%;
 	position: relative;
 }
 
 .imgHeaderButton{
-	/* width: 30%; */
 	width: 20%;
 	position: absolute;
-	/* bottom: 0px; */
-	/* left: calc(100px + var(--padding-x)) ; */
-	left: 15vw;
-	bottom: 1vw;
+	left: 8vw;
+	bottom: 5vw;
 }
 .imgHeaderButton img{
 	width: 100%;
